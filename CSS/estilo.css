@@ -1,0 +1,172 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* VARIABLES */
+
+:root {
+    --branco: #ffffff;
+    --escuro: #0C171A;
+    --gris: #334347;
+    --primario: #84ACB8;
+    --secundario: #A8E0F0;
+    --alternativo: #162124;
+
+    --mainFont: 'Roboto', sans-serif;
+}
+
+
+/* HEADER */
+body {
+    margin: 0;
+    font-family: var(--mainFont);
+  }
+
+ul li {
+    list-style: none;
+    display: inline;
+}
+
+ul li:last-child {
+    margin-right: 20px;
+  }
+
+.item {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    text-align: right;
+    margin-left: 50%;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+nav a:hover{
+    color: red;
+    /* text-decoration-line: underline; */
+    border-bottom: 2px solid;
+}
+
+nav li {
+    margin-left: 2rem;
+}
+
+.headermargin {
+    text-align: left;
+    margin-left: 10%;
+}
+
+/* IMAGEN CABECERA */
+
+.redtext {
+    color: red;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    left: 25%;
+}
+.texto-encima{
+    position: absolute;
+    left: 74%;
+    top: 22%;
+    background-color: white;
+    color: red;
+    font-size: medium;
+}
+
+.texto-encima2{
+    position: absolute;
+    left: 60%;
+    top: 30%;
+    background-color: white;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    font-family:cursive;
+}
+
+.texto-encima3{
+    position: absolute;
+    left: 60%;
+    top: 42%;
+    background-color: white;
+    color: black;
+    font-size: large;
+    font-family:cursive;
+}
+
+.texto-encima4{
+    position: absolute;
+    left: 60%;
+    top: 54%;
+    background-color: white;
+    color: black;
+    font-size: large;
+    font-family:cursive;
+}
+
+.boton{
+    position: absolute;
+    left: 70%;
+    top: 70%;
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+    padding: 7px;
+    text-decoration: none;
+}
+
+
+/*SECTION 1*/
+
+.centrado {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
+    padding: 20px;
+
+}
+
+/*SECTION 2*/
+
+.novedades {
+    text-align: center;
+    font-size: larger;
+    color: red;
+    font-family: cursive;
+}
+/*FOOTER*/
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+.rights {
+    position: relative;
+    left: 35%;
+}
+
+.insta {
+    position: relative;
+    left: 70%;
+    text-decoration: none;
+    color: white;
+}
