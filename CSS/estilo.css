@@ -74,6 +74,8 @@ ul li a {
     margin: 0 0 0 1rem;
 }
 
+span {font-family: var(--thorFont);}
+
 /* nav {
     display: inline-block;
     text-align: right;
@@ -175,6 +177,7 @@ nav a:hover {
 
 #sobreMi p {
     line-height: 2;
+    text-shadow: 1px 1px #FC0;
 }
 
 /*SECTION 2*/
