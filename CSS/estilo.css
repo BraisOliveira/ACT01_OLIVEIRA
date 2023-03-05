@@ -7,6 +7,7 @@
 
 :root {
     --thorColor: #FF171B;
+    --shadowOfTheBest: #666;
 
     --mainFont: 'Roboto', sans-serif;
     --thorFont: 'Tilt Prism', cursive;
@@ -187,10 +188,51 @@ nav a:hover {
     letter-spacing: 1.9rem;
 }
 
+/* GRID */
+
+.wrapper {
+    margin-left: 10%;
+    max-width: 80%;
+    background-color: var(--shadowOfTheBest);
+    display: grid;
+    grid-template-columns: repeat(3, 20% 35% 45%);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.wrapper img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: black;
+}
+
+.two {
+    grid-column: 2 / 3;
+}
+
+.three {
+    grid-column: 1 / 3;
+}
+
+.four {
+    grid-column: 3 /3;
+    grid-row: 1 / 3;
+    background-color: darkgreen;
+    margin-right: 1rem;
+}
+
 /*FOOTER*/
 
 footer {
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     background-color: black;
     padding: 1rem;
